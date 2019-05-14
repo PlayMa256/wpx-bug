@@ -1,0 +1,50 @@
+Arguments: 
+  /home/matheus/.nvm/versions/node/v10.15.0/bin/node /home/matheus/.nvm/versions/node/v10.15.0/bin/yarn
+
+PATH: 
+  /home/matheus/.opam/4.05.0/bin:/home/matheus/Downloads/apache-maven-3.5.3-bin/apache-maven-3.5.3/bin:/home/matheus/.opam/4.05.0/bin:/home/matheus/.nvm/versions/node/v10.15.0/bin:/home/matheus/Downloads/apache-maven-3.5.3-bin/apache-maven-3.5.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.133.tgz: ETIMEDOUT
+      at Timeout._onTimeout (/home/matheus/.nvm/versions/node/v10.15.0/lib/node_modules/yarn/lib/cli.js:130201:19)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+      at Timer.processTimers (timers.js:223:10)
+
+npm manifest: 
+  {
+    "name": "example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "babel.config.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.4.4",
+      "@babel/polyfill": "^7.4.4",
+      "@babel/preset-env": "^7.4.4",
+      "@babel/preset-react": "^7.0.0",
+      "@babel/preset-typescript": "^7.3.3",
+      "typescript": "^3.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
